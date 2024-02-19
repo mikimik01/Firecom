@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/grad1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/gradient2"
+        android:elevation="5dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+
+
+        <EditText
+            android:textColorHighlight="@color/black"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="5dp"
+            android:drawableEnd="@drawable/ic_email_black_24dp"
+            android:id="@+id/em"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColorHint="@color/halfblack"
+            android:hint="E-mail..."/>
+
+        <EditText
+            android:textColorHint="@color/halfblack"
+            android:textColorHighlight="@color/black"
+            android:textColor="@color/black"
+            android:drawablePadding="5dp"
+            android:drawableEnd="@drawable/ic_lock_black_24dp"
+            android:id="@+id/ha"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Hasło..."/>
+
+        <TextView
+            android:layout_margin="7dp"
+            android:id="@+id/pomocnik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/gradient3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/si"
+            android:text="Zaloguj się"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/gradient3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Utwórz nowe konto"
+            android:id="@+id/but"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reset"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/gradient3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zapomniałeś hasła?"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:indeterminateTint="@android:color/holo_red_dark"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/progressbar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="gone" />
+
+
+
+                    <!--<com.google.android.gms.common.SignInButton
+                        android:text="Zaloguj się za pomocą Google"
+                        android:onClick="klik"
+                        android:id="@+id/mygooglebutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/imie" />-->
+
+                </LinearLayout>
+                <!-- <com.facebook.login.widget.LoginButton
+                     android:elevation="4dp"
+                     android:paddingBottom="10dp"
+                     android:paddingTop="10dp"
+                     android:onClick="buttonclickLoginFb"
+                     android:id="@+id/login_button"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:layout_gravity="center_horizontal"/>-->
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

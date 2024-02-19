@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/grad1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wyborCzatu">
+
+    <ListView
+        android:clickable="false"
+        android:id="@+id/myLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tekstet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:paddingStart="7dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient2"
+        android:layout_marginStart="10dp"
+        android:id="@+id/tekstet"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Napisz wiadomość..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wyslij"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient3"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/wyslij"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:text="wyślij"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

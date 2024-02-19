@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linlayfrag"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/nameTv"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/halfblack"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jan Kowalski"/>
+
+    <TextView
+        android:id="@+id/msgTv"
+        android:textColor="@color/black"
+        android:paddingStart="15dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siema co tam u Ciebie słychać staruszku ty mój kochany ziomeczku co tam u Ciebie"
+        android:textSize="16sp"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>

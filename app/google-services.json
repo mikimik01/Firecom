@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "855375883496",
+    "project_id": "firekom-49d0e",
+    "storage_bucket": "firekom-49d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855375883496:android:bdcfc9f9d99c778b736d5d",
+        "android_client_info": {
+          "package_name": "com.example.firekom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855375883496-to6nan17e0je3bo4r21ba0ake14pdr6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwUjejwdIdJEMq0P3aV7WnqGqFWFJshU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855375883496-to6nan17e0je3bo4r21ba0ake14pdr6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
